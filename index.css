@@ -21,21 +21,68 @@ body{
     font-size: 14px;
     text-transform: uppercase;
     color: rgb(127, 125, 125);
-    font-family: 'Public Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bolder;
 }
 .day{
     width: 20%;
+    gap:-6px;
     margin-left: 4%;
-   
+   margin-right: 2px;
     margin-top: 5%;
 }
 .input-date{
-    width: 80%;
+    width: 60%;
     height: 2rem;
     border: 2px solid rgb(233, 233, 233);
     border-radius: 5px;
    margin-top: -5%;
    font-weight: bold;
    font-size: 20px;
+   font-family: 'Poppins', sans-serif;
+}
+.line{
+    border: 1px solid rgb(239, 239, 239);
+    width:80%;
+    margin-left: 4%;
+}
+.circle{
+    background-color: rgb(128, 61, 253);
+    width:60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 85%;
+    margin-top: -3%;
+}
+.arrow{
+    margin-left: 5%;
+    color: black;
+}
+.cal{
+    width:80%;
+    margin-top: -4%;
+    margin-left: 4%;
+    
+   
+    font-weight: t;
+}
+.cal p{
+    font-size: 55px;
+    font-style: italic;
+   margin-left: 10%;
+   font-family: 'Poppins', sans-serif;
+   text-transform: lowercase;
+   font-weight: 900;
+}
+p span{
+    color:rgb(128, 61, 253)
+}
+@media screen and (min-width: 280px) and (max-width:760px){
+    .div-main{
+        width: 95%;
+        margin-left:2%;
+    }
+    .day{
+        width: 26%; 
+    }
 }
