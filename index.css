@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(236, 233, 233);
+}
+.div-main{
+    background-color: white;
+    width: 45%;
+    margin-left:25%;
+    margin-top: 5%;
+    height: 30rem;
+    border-radius: 15px;
+    border-bottom-right-radius:160px;
+    
+}
+.div-date{
+    
+    display: flex;
+    margin-top: 16%;
+    width: 100%;
+}
+.div-date p{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgb(127, 125, 125);
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bolder;
+}
+.day{
+    width: 20%;
+    margin-left: 4%;
+   
+    margin-top: 5%;
+}
+.input-date{
+    width: 80%;
+    height: 2rem;
+    border: 2px solid rgb(233, 233, 233);
+    border-radius: 5px;
+   margin-top: -5%;
+   font-weight: bold;
+   font-size: 20px;
+}
