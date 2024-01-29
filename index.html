@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="index.js"></script>
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -19,15 +20,15 @@
     <div class="div-date">
         <div class="day">
                <p>Day</p>
-               <input type="text" class="input-date" placeholder="DD">
+               <input type="text"  class="input-date" id="input-date" placeholder="DD" >
         </div>
         <div class="day">
             <p>Month</p>
-            <input type="text" class="input-date" placeholder="MM">
+            <input type="text" class="input-date" id="input-mon" placeholder="MM">
         </div>
         <div class="day">
             <p>Year</p>
-            <input type="text" class="input-date" placeholder="YYYY">
+            <input type="text" class="input-date" id="input-year" placeholder="YYYY" onchange="cal()">
         </div>
     </div><br/>
     <div class="line">
@@ -37,9 +38,9 @@
         <i class='fas fa-arrow-down arrow'></i>
     </div>
     <div class="cal">
-   <p><span>- -  </span>Days<br/>
-  <span>- - </span>Months<br/>
-  <span>- -  </span>years</p>
+   <p><span id="year">- -  </span> years<br/>
+  <span>- - </span> Months<br/>
+  <span>- -  </span> Days</p>
     </div>
     </div>
 </body>
