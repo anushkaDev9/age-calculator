@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(236, 233, 233);
+    background-color: rgb(227, 229, 233);
 }
 .div-main{
     background-color: white;
     width: 45%;
     margin-left:25%;
     margin-top: 5%;
-    height: 30rem;
+    
     border-radius: 15px;
     border-bottom-right-radius:160px;
     
@@ -62,9 +62,9 @@ body{
     width:80%;
     margin-top: -4%;
     margin-left: 4%;
-    
+    margin-bottom: 10px;
    
-    font-weight: t;
+    
 }
 .cal p{
     font-size: 55px;
@@ -73,9 +73,14 @@ body{
    font-family: 'Poppins', sans-serif;
    text-transform: lowercase;
    font-weight: 900;
+  
 }
 p span{
-    color:rgb(128, 61, 253)
+    color:rgb(128, 61, 253);
+    
+}
+.error{
+    border-color: red;
 }
 @media screen and (min-width: 280px) and (max-width:760px){
     .div-main{
@@ -85,4 +90,30 @@ p span{
     .day{
         width: 26%; 
     }
+    .cal p{
+        font-size: 40px;
+    }
+    .cal{
+        width:80%;
+        margin-top: -10%;
+        margin-left: 4%;
+        margin-bottom: 10px;  
+    }
+    p span{
+        color:rgb(128, 61, 253)
+    }
+    .circle{
+        margin-left: 35%;
+        margin-top: -8%;
+    }
+    .line{
+        margin-top: 4%;
+    }
+}
+@media screen and (min-width: 760px) and (max-width:1000px){
+    .div-main{
+        width: 95%;
+        margin-left:2%;
+    }
+    
 }

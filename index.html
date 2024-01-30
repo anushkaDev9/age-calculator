@@ -10,14 +10,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+   
     <script src="index.js"></script>
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="div-main">
-    <div class="div-date">
+    <div class="div-date" >
+       
         <div class="day">
                <p>Day</p>
                <input type="text"  class="input-date" id="input-date" placeholder="DD" >
@@ -28,19 +29,20 @@
         </div>
         <div class="day">
             <p>Year</p>
-            <input type="text" class="input-date" id="input-year" placeholder="YYYY" onchange="cal()">
+            <input type="text" class="input-date" id="input-year" placeholder="YYYY" >
         </div>
+   
     </div><br/>
     <div class="line">
          
     </div>
     <div class="circle">
-        <i class='fas fa-arrow-down arrow'></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" style="margin-left: 7%;margin-top: 5%;" viewBox="0 0 46 44" onclick="cal()"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
     </div>
     <div class="cal">
    <p><span id="year">- -  </span> years<br/>
-  <span>- - </span> Months<br/>
-  <span>- -  </span> Days</p>
+  <span id="month">- - </span> Months<br/>
+  <span id="date">- -  </span> Days</p>
     </div>
     </div>
 </body>
