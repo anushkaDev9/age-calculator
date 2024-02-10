@@ -1,6 +1,6 @@
 body{
     background-color: hsl(0, 0%, 86%);
-    cursor: pointer;
+   
 }
 .div-main{
     background-color: white;
@@ -41,6 +41,7 @@ body{
    font-weight: bold;
    font-size: 20px;
    font-family: 'Poppins', sans-serif;
+   cursor: pointer;
 }
 .line{
     border: 1px solid rgb(239, 239, 239);
@@ -54,6 +55,7 @@ body{
     border-radius: 50px;
     margin-left: 85%;
     margin-top: -3%;
+    cursor: pointer;
 }
 .arrow{
     margin-left: 5%;
