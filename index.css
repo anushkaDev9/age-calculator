@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(227, 229, 233);
+    background-color: hsl(0, 0%, 86%);
+    cursor: pointer;
 }
 .div-main{
     background-color: white;
@@ -80,12 +81,17 @@ p span{
     
 }
 .error{
-    border-color: red;
+    border-color: hsl(0, 100%, 67%);
 }
+.error-text{
+    color:red
+}
+
 @media screen and (min-width: 280px) and (max-width:760px){
     .div-main{
         width: 95%;
         margin-left:2%;
+        border-bottom-right-radius:100px;
     }
     .day{
         width: 26%; 
