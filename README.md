@@ -1,6 +1,6 @@
 # age-calculator
 ### The challenge
-The  challenge is to build out a tip calculator app and get it looking as close to the design as possible.
+The  challenge is to build out a age calculator app and get it looking as close to the design as possible.
 Users should be able to:
 -View an age in years, months, and days after submitting a valid date through the form
 Receive validation errors if:
